@@ -1,0 +1,106 @@
+﻿body
+{
+	margin:0px;
+}
+#memberlogin
+{
+	position: absolute;
+	width:500px;
+	height:500px;
+	top:0px;
+	left:400px;
+	}
+#main {
+	margin: 0 auto;
+}
+#subTitle {
+	color: #606060;
+	font-size: medium;
+	width: 95%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+.mainDiv {
+	color: #606060;
+	display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    width: 30%;
+    margin: 3% 1% 1%;
+    float: left;
+    text-align: center;
+}
+.mainDiv img {
+	width: 100%;
+}
+
+.mainTitle {
+	color: #333333;
+	font-size: large;
+	font-weight: bold;
+	margin: 0 auto 2%;
+}
+
+.mainBtn {
+	color: #333333;
+	background-color: #fedac4;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    width: 50%;
+    padding: 2% 0;
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+    margin: 5% auto 0;
+}
+.mainBtn a {
+	display: block;
+	color: #333333;
+}
+
+.keyContent {
+	text-align: left;
+	margin: 2% auto;
+}
+.keyContent span {
+	font-size: small;
+}
+.keyContent input[type="text"] {
+	border: 1px solid #333333;
+	padding: 1%;
+	width: 95%;
+}
+.keyContent input[type="password"] {
+	border: 1px solid #333333;
+	padding: 1%;
+	width: 95%;
+}
+
+.forgetBtn {
+	text-align: left;
+	font-size: small;
+}
+.forgetBtn>a {
+	cursor: pointer;
+	display: block;
+	color: #606060;
+}
+.forgetBtn span {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    #main .mainDiv {
+    	width: 95%;
+    	float: none;
+    	margin: 5% auto;
+    	display: block;
+    }
+    
+    #main .mainDiv img, #main .mainBtn {
+	    width: 80%;
+    }
+}

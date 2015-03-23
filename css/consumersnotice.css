@@ -1,0 +1,23 @@
+﻿body
+{
+	margin:0px;
+}
+#inner
+{   
+    font-size:18px;
+    width:40%;
+    margin:0 auto;
+    
+}
+#shoppingguide
+{
+    float:left;
+    display:block;
+    font-weight:600;
+}
+#returnprocess
+{   
+    display:block;
+    float:left;
+    font-weight:600
+}

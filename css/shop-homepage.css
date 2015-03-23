@@ -1,0 +1,97 @@
+
+body
+{
+	margin:0px;
+	background-image:url('../images/visitstore.png');
+	background-repeat:no-repeat;
+	
+	background-size:100%;
+	background-attachment:fixed;
+	
+}
+#fullwhite
+{
+	background-color:White;
+}
+.fixBGColor
+{
+	background-color:White;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.subtitle
+{   
+	letter-spacing:3px;
+	font-size: 14px;
+    list-style-type: none;
+    text-align: center;
+}
+.maintitle {
+    font-size: 60px;
+    letter-spacing: 36px;
+    list-style-type: none;
+    margin-left: 80px;
+    text-align: center;
+}
+.slide-image {
+  width: 100%;
+}
+
+.carousel-holder {
+  margin-bottom: 30px;
+}
+
+.carousel-control,.item {
+  border-radius: 4px;
+}
+
+.caption {
+  height: 130px;
+  overflow: hidden;
+}
+
+.caption h4 {
+  white-space: nowrap;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.ratings {
+  color: #d17581;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}
+
+footer {
+  margin: 50px 0;
+}
+
+/* */
+#naviBar 
+{
+    margin: 0 auto;
+}

@@ -1,0 +1,41 @@
+﻿.resize
+{   width:100%;}
+#info
+{   text-align:left;
+    font-family: Modern-Regular ,'微軟正黑體';
+    font-size:30px;
+    min-height:18px;
+    padding-top: 12px;
+}
+#color Img
+{   width:10%}
+
+#trolley
+{   background-color:#888888;
+    font-family: Modern-Regular ,'微軟正黑體';
+    color:#DDDDDD;
+    text-align:center;
+    vertical-align:center;
+    line-height:48px;
+    margin:3% auto;}
+    
+#info , size , color , sizeTable , designer , fabric
+{   line-height:48px;
+    font-size: 16px;}
+#news
+{   text-align:center;
+    font-size:60px;
+    letter-spacing:4px;
+    color:#999999}
+
+#news Img
+{   width:100%}
+
+#else
+{   text-align:center;
+    font-size:60px;
+    letter-spacing:4px;
+    color:#999999}
+#other Img
+{    padding-top: 5px;
+     width:97%;}

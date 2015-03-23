@@ -1,0 +1,9 @@
+﻿.resize
+{   width:100%;}
+.info
+{   text-align:center;
+    font-family: Modern-Regular ,'微軟正黑體';
+    font-size:12px;
+    min-height:66px;
+    padding-top: 15px;
+}

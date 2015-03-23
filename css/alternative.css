@@ -1,0 +1,72 @@
+﻿#touch{text-align:center}
+
+#cvs
+{   background-color: #888888;
+    border-radius: 4px;
+    color: White;
+    left: 2%;
+    text-align: center;
+    width: 45%;
+    height:100%;
+    font-size:48px;
+}
+#cvsarticle
+{   width:40%;
+    margin:16% auto;
+}
+
+#allpay
+{   background-color: #888888;
+    border-radius: 4px;
+    color: White;
+    float: right;
+    right: 2%;
+    text-align: center;
+    width: 45%;
+    height:100%;
+    font-size:48px;
+}
+#aparticle
+{   margin:3% auto;}
+#focz
+{   display:inline-block;
+    width:40%;
+    background-color:#FFF;
+    letter-spacing:12px;
+    color:#888888;
+    font-size:48px;}
+    
+    
+@Media (max-width: 767px)
+{         
+    #touch
+    {
+        
+        margin-top:36px;
+    }
+    #cvs
+    {
+        font-size:18px;
+        height:50%;
+    }
+    #cvsarticle
+    {
+        margin:25% auto
+    }
+    #allpay
+    {   
+        font-size:18px;
+        height:50%
+    }
+    #aparticle
+    {   
+        margin:12% auto
+    }
+    #focz
+    {
+        font-size:16px;
+        letter-spacing:2px;
+    }
+}
+@Media  (min-width:768px)
+{ #touch{height:420px}

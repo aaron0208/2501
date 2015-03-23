@@ -1,0 +1,438 @@
+﻿body
+{
+	margin:0px;
+}
+#productmenuline1
+{
+		position: absolute;
+		width:100%;
+		height:400px;
+		top:0px;
+		left:200px;
+	}
+#productmenuline1img1
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline1text1-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline1text1-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline1img2
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		left:300px;
+		margin-left:30px;
+		float:left;
+
+	}
+#productmenuline1text2-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline1text2-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		
+		}
+#productmenuline1img3
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		left:300px;
+		margin-left:30px;
+		float:left;
+
+	}
+#productmenuline1text3-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline1text3-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		
+		}
+#productmenuline1img4
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		left:300px;
+		margin-left:30px;
+		float:left;
+
+	}
+#productmenuline1text4-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline1text4-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		
+		}
+#productmenuline2
+{      		
+		position: absolute;
+		width:100%;
+		height:400px;
+		top:450px;
+		left:200px;
+
+	}
+#productmenuline2img1
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline2text1-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline2text1-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline2img2
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline2text2-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline2text2-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline2img3
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline2text3-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline2text3-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline2img4
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline2text4-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline2text4-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline3
+{      		
+		position: absolute;
+		width:100%;
+		height:400px;
+		top:900px;
+		left:200px;
+
+	}
+#productmenuline3img1
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline3text1-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline3text1-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline3img2
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline3text2-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline3text2-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline3img3
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline3text3-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline3text3-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline3img4
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline3text4-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline3text4-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline4
+{      		
+		position: absolute;
+		width:100%;
+		height:400px;
+		top:1550px;
+		left:200px;
+
+	}
+#productmenuline4img1
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline4text1-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline4text1-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline4img2
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline4text2-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline4text2-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#productmenuline4img3
+{
+		width:270px;
+		height:410px;
+		top:200px;
+		margin-left:30px;
+		left:300px;
+		float:left;
+
+	}
+#productmenuline4text3-1
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+	}
+#productmenuline4text3-2
+{
+		width:270px;
+		height:20px;
+		font-size:16px;
+		line-height:60px;
+		text-align:center;
+		}
+#content {
+    height:1350px;
+    margin: 0 auto;
+    position: relative;
+    width: 85%;
+}

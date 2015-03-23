@@ -1,0 +1,59 @@
+﻿#body
+{   font-family:'微軟正黑體';}
+#itemHead
+{   text-align:center;
+    font-size:24px;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-width:1px;
+    overflow:hidden;
+}
+#itemBody
+{   text-align:center;
+    font-size:16px;
+    padding-top:24px;
+}
+#pic
+{   margin:0 auto}
+#txt
+{   text-align:center;}
+
+#decide
+{   width:100%;
+    line-height:36px;
+    font-size:12px;
+}
+#backtrolley
+{   color:White;
+    border-radius: 4px 4px 4px 4px;
+    background-color:#888888;
+    text-align:center;
+    width:45%;
+    left:2%
+}
+#pay
+{   color:White;
+    border-radius: 4px 4px 4px 4px;
+    background-color:#888888;
+    text-align:center;
+    width:45%;
+    float:right;
+    right:2%;
+}
+#total
+{   float:right;
+    line-height:8px;
+    font-size:12px;
+    width: 300px;
+    font-weight:600;
+}
+#name
+{   text-align:center;
+    font-size:26px;}
+
+#decide
+{   padding-top:24px;}
+
+#scr Img
+{
+    width:20%}
