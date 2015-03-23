@@ -14,20 +14,13 @@
         <link rel="stylesheet" type="text/css" href="./css/main.css" />
         <link rel="stylesheet" type="text/css" href="./css/guestproduct.css" />
         <link rel="stylesheet" type="text/css" href="./css/logbook.css" />
-        <script src="js/base.js"></script>
+        
+        <!-- jQuery -->
+        <script src="js/jquery-1.10.2.js"></script>
 
-        <style>
-            @media (min-width: 1200px) {
-                .navbar-header {
-                    width: 28%;
-                }
-            }
-            @media (max-width: 767px) {
-                .navbar-toggle {
-                    float: none;
-                }
-            }
-        </style>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/base.js"></script>
 
 
 
@@ -62,88 +55,86 @@
                     </li>
                 </ul>
 
-                <div>
-                    <div class='' id="headerTop" runat="server" style=" margin-top:0px;">
-                        <div id="headlogo">
-                            <a href="./Default.aspx"><img src="./images/logo.png" />
-                            </a>
-                        </div>
+
+            <div>
+            
+                <div class='fullWidth fixBGColor' id="headerTop" runat="server">
+                    <div id="headlogo">
+                        <a href="./Default.aspx"><img src="./images/logo.png" />
+                        </a>
                     </div>
-                    <nav class='navbar navbar-default' id="headerBottom" role='navigation' runat="server">
-                        <!-- Brand and toggle get grouped for better mobile display -->
-                        <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand" href="#"></a>
-                        </div>
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                            <ul class="nav navbar-nav">
-                                <li>
-                                    <a href="./news.aspx">最新消息</a>
-                                </li>
-                                <li>
-                                    <a href="./guestproduct.aspx">線上購物</a>
-                                </li>
-                                <li>
-                                    <a href="./consumernotice.aspx">消費須知</a>
-                                </li>
-                                <li>
-                                    <a href="./logbook.aspx">品牌記事</a>
-                                </li>
-                                <li>
-                                    <a href="./alliance.aspx">店鋪加盟</a>
-                                </li>
-                                <li>
-                                    <a href="./cooperate.aspx">創辦人合作</a>
-                                </li>
-                                <li>
-                                    <a href="./communication.aspx">聯絡我們</a>
-                                </li>
-                                <li class="dropdown">
-                                    <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-                                        <i class="icon-user"></i> <img src="./images/member.png" /> <i class="caret"></i>
-
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a tabindex="-1" href="./login.aspx">login</a>
-                                        </li>
-                                        <li class="divider"></li>
-                                        <li>
-                                            <a tabindex="-1" href="./Default.aspx">logout</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="./images/search.png" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="./images/shoppingcart.png" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#"><img src="./images/fb.png" />
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </nav>
                 </div>
+                
+                <nav class='navbar navbar-default' id="headerBottom" role='navigation' runat="server">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"></a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div id="navbar" class="collapse navbar-collapse">
+
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="./news.aspx">最新消息</a>
+                            </li>
+                            <li>
+                                <a href="./guestproduct.aspx">線上購物</a>
+                            </li>
+                            <li>
+                                <a href="./consumernotice.aspx">消費須知</a>
+                            </li>
+                            <li>
+                                <a href="./logbook.aspx">品牌記事</a>
+                            </li>
+                            <li>
+                                <a href="./alliance.aspx">店鋪加盟</a>
+                            </li>
+                            <li>
+                                <a href="./cooperate.aspx">創辦人合作</a>
+                            </li>
+                            <li>
+                                <a href="./communication.aspx">聯絡我們</a>
+                            </li>
+                        
+                            <li>
+                               <div> 
+                                <a href="#">
+                                    <img src="./images/member.png" />
+                                </a>
+                            
+                                <a href="#"><img src="./images/search.png" />
+                                </a>
+                            
+                                <a href="#"><img src="./images/shoppingcart.png" />
+                                </a>
+                            
+                                <a href="#"><img src="./images/fb.png" />
+                                </a>
+                               </div>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+                
+            </div>
+
             </div>
 
 
        <hr />
         <div id="arrow" class="col-xs-12 col-sm-12"><a href="./Default.aspx">首頁</a>＞<a href="./guestproduct.aspx">購物首頁</a><hr /></div>
-            <div id="content" class="row row-offcanvas row-offcanvas-left">
-                <div id="sidebar" class="col-xs-9 col-sm-9 col-lg-2 sidebar-offcanvas">
+        
+        <div class="container-fluid">
+        
+            <div id="content" class="row">
+                <div id="sidebar" class="col-sm-12 col-md-2">
                     <div class="list-group">
                         <a class="list-group-item active" href="#">特價專區</a>
                         <a class="list-group-item" href="#">男款服飾</a>
@@ -151,98 +142,98 @@
                         <a class="list-group-item" href="#">新商品</a>
                     </div>
                 </div>
-                <div id="list" class="col-xs-9 col-sm-9">
+                <div id="list" class="col-sm-12 col-md-10">
                     <div class="row">
-                        <div id="productmenu1" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="./productinfomantion.aspx"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="./productinfomantion.aspx"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu2" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu3" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu4" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu5" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu6" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu7" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu8" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu9" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu10" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu11" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
                                 <p style="font-size:10px">TWD.450</p>
                             </div>
                         </div>
-                        <div id="productmenu12" class="col-xs-6 col-sm-4 col-lg-3" style="margin-left: 0px; padding-right: 0px;">
-                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="resize">
+                        <div class="col-xs-6 col-sm-4 col-lg-3">
+                            <a href="#"><img src="./images/buyonloneimg-1.png" / class="fullWidth">
                             </a>
                             <div class="info">男款短T
                                 <br />
@@ -252,9 +243,12 @@
                     </div>
                 </div>
             </div>
+        
+        </div>
             <!--<div class="container" style="width: 100%; height:800px; padding-left: 0px; padding-right: 0px; overflow:hidden; background-color:transparent;background-image: none;opacity:.1; ">
     </div>-->
-       <div class="container fixBGColor" style="width: 100%; padding-left: 0px; padding-right: 0px; overflow:hidden;">
+    
+       <div class="container-fluid fixBGColor">
             <div id="footer" runat="server" class="row">
                 <div class="col-md-12">
                     <hr />

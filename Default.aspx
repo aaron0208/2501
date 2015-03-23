@@ -22,26 +22,12 @@
         <link rel="stylesheet" type="text/css" href="./css/main.css" />
         <link href="css/shop-homepage.css" rel="stylesheet">
 
-
-        <style>
-            @media (min-width: 1200px) {
-                .navbar-header {
-                    width: 28%;
-                }
-            }
-            @media (max-width: 767px) {
-                .navbar-toggle {
-                    float: none;
-                }
-            }
-        </style>
-
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
         <!-- jQuery -->
         <script src="js/jquery-1.10.2.js"></script>
@@ -60,10 +46,10 @@
                 </Services>
             </asp:ScriptManager>
         </form>
-        <div class="container fixBGColor" style="width: 100%;">
+        <div class="fullWidth fixBGColor">
 
 
-            <ul class="nav navbar-nav" style="position:absolute" ;>
+            <ul class="nav navbar-nav" style="position:absolute";>
                 <li class="dropdown">
                     <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
                         <i class="icon-user"></i>language <i class="caret"></i>
@@ -85,16 +71,20 @@
             </ul>
 
             <div>
-                <div class='' id="headerTop" runat="server" style=" margin-top:0px;">
+                <div class='fullWidth fixBGColor' id="headerTop" runat="server">
                     <div id="headlogo">
                         <a href="./Default.aspx"><img src="./images/logo.png" />
                         </a>
                     </div>
                 </div>
+                
+                
+                
+                
                 <nav class='navbar navbar-default' id="headerBottom" role='navigation' runat="server">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -103,7 +93,7 @@
                         <a class="navbar-brand" href="#"></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div id="navbar" class="collapse navbar-collapse">
 
                         <ul class="nav navbar-nav">
                             <li>
@@ -127,40 +117,32 @@
                             <li>
                                 <a href="./communication.aspx">聯絡我們</a>
                             </li>
-                            <li class="dropdown">
-                                <a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="icon-user"></i> <img src="./images/member.png" /> <i class="caret"></i>
-
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a tabindex="-1" href="./login.aspx">login</a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li>
-                                        <a tabindex="-1" href="./Default.aspx">logout</a>
-                                    </li>
-                                </ul>
-                            </li>
+                        
                             <li>
-                                <a href="#"><img src="./images/search.png" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="./images/shoppingcart.png" />
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="./images/fb.png" />
-                                </a>
+                               <div> 
+                                    <a href="#">
+                                        <img src="./images/member.png" />
+                                    </a>
+                                
+                                    <a href="#"><img src="./images/search.png" />
+                                    </a>
+                                
+                                    <a href="#"><img src="./images/shoppingcart.png" />
+                                    </a>
+                                
+                                    <a href="#"><img src="./images/fb.png" />
+                                    </a>
+                               </div>
                             </li>
                         </ul>
 
                     </div>
                 </nav>
+                
+                
             </div>
         </div>
-        <div class="container fixBGColor" style="width: 100%; padding-left: 0px; padding-right: 0px; overflow:hidden;">
+        <div class="fullWidth fixBGColor">
             <div class="row fixBGColor">
                 <div class="col-md-12">
                     <div class="row carousel-holder">
@@ -249,19 +231,20 @@
         </div>
 
         </div>
-        <div class="container" style="width: 100%; height:800px; padding-left: 0px; padding-right: 0px; overflow:hidden; background-color:transparent;background-image: none;opacity:.1; ">
+        <div class="fullWidth" style="height:800px; opacity:.1; ">
         </div>
-        <div class="container fixBGColor" style="width: 100%; padding-left: 0px; padding-right: 0px; overflow:hidden;">
+        
+       <div class="container-fluid fixBGColor">
             <div id="footer" runat="server" class="row">
                 <div class="col-md-12">
                     <hr />
-                        <div id="join" class="col-xs-12 col-sm-12 col-lg-4 col-md-4">
+                       <div id="join" class="col-xs-12 col-sm-12 col-lg-4 col-md-4">
                             <div class="joinContent">
                                 <div class="footerHeadline" style="font-size:18px">還不是會員</div>
                                 <div class="joinLine">
                                     <div id="joinLineInside">
                                         <div class="joinInput">
-                                            <input id="Text1" type="text" value="請輸入您的E-Mail" />
+                                            <input id="Text1" type="text" value="請輸入您的E-Mail"/>
                                             <a href="./signup.aspx"><img src="./images/join_07.png">
                                                 </a>
                                         </div>
@@ -279,56 +262,55 @@
 
                         </div>
 
-
-                    <div id="map" class="col-xs-12 col-sm-12 col-lg-4 col-md-4" style="font-size:18px">
-                        網站地圖
-                        <div id="maptop" class="row" style="font-size:16px">
-                            <div id="mapbord" class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
-                                <div id="mapleft">
-                                    <div class="mapleftlink" style="width:90px">
-                                        <a href="./news.aspx">最新消息</a>
-                                        <br />
-                                        <a href="./login.aspx">線上購物</a>
-                                        <br />
-                                        <a href="./guestproduct.aspx">男裝</a>
-                                        <br />
-                                        <a href="./guestproduct.aspx">T-SHIRT</a>
-                                        <br />
-                                        <a href="./consumernotice.aspx">消費須知</a>
-                                        <br />
-                                        <a href="./logbook.aspx">品牌記事</a>
-                                        <br />
-                                        <a href="./cooperate.aspx">創辦人合作</a>
-                                        <br />
-                                        <a href="./designer.aspx">設計</a>
-                                        <br />
-                                     </div>
+                        <div id="map" class="col-xs-12 col-sm-12 col-lg-4 col-md-4" style="font-size:18px">
+                            網站地圖
+                            <div id="maptop" class="row" style="font-size:16px">
+                                <div id="mapbord" class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
+                                    <div id="mapleft">
+                                        <div class="mapleftlink" style="width:90px">
+                                            <a href="./news.aspx">最新消息</a>
+                                            <br />
+                                            <a href="./login.aspx">線上購物</a>
+                                            <br />
+                                            <a href="./guestproduct.aspx">男裝</a>
+                                            <br />
+                                            <a href="./guestproduct.aspx">T-SHIRT</a>
+                                            <br />
+                                            <a href="./consumernotice.aspx">消費須知</a>
+                                            <br />
+                                            <a href="./logbook.aspx">品牌記事</a>
+                                            <br />
+                                            <a href="./cooperate.aspx">創辦人合作</a>
+                                            <br />
+                                            <a href="./designer.aspx">設計</a>
+                                            <br />
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div id="mapright" class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
-                                <div id="mapright">
-                                    <div class="mapleftlink" style="width:90px">
-                                        <a href="./alliance.aspx">店鋪加盟</a>
-                                        <br />
-                                        <a href="./franchise.aspx">分店介紹</a>
-                                        <br />
-                                        <a href="./branches.aspx">加盟資訊</a>
-                                        <br />
-                                        <a href="./communication.aspx">聯絡我們</a>
-                                        <br />
-                                        <a href="#">FACEBOOK</a>
-                                        <br />
-                                        <a href="./trademark.aspx">相關品牌</a>
-                                        <br />
-                                        <a href="./director.aspx">導演</a>
-                                        <br />
-                                        <a href="./music.aspx">音樂</a>
+                                <div id="mapright" class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
+                                    <div id="mapright">
+                                        <div class="mapleftlink" style="width:90px">
+                                            <a href="./alliance.aspx">店鋪加盟</a>
+                                            <br />
+                                            <a href="./franchise.aspx">分店介紹</a>
+                                            <br />
+                                            <a href="./branches.aspx">加盟資訊</a>
+                                            <br />
+                                            <a href="./communication.aspx">聯絡我們</a>
+                                            <br />
+                                            <a href="#">FACEBOOK</a>
+                                            <br />
+                                            <a href="./trademark.aspx">相關品牌</a>
+                                            <br />
+                                            <a href="./director.aspx">導演</a>
+                                            <br />
+                                            <a href="./music.aspx">音樂</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     <div id="consumption" class="col-xs-12 col-sm-12 col-lg-4 col-md-4">
                         <div class="footerHeadline" style="font-size:18px">消費方式</div>
                         <img src="./images/consumption.png" />
@@ -337,7 +319,7 @@
                 </div>
             </div>
             <div id="proclaim" runat="server" class="row">
-                <div class="col-md-12">
+                <div class="col-md-12" style="padding-left: 25px;">
                     <hr />
                     <div id="proclaimtext">
                         <div class="proclaimtextInner" style="font-size:18px"><a>法律聲明</a>
@@ -349,6 +331,7 @@
                 </div>
             </div>
         </div>
+       
     </body>
 
     </html>

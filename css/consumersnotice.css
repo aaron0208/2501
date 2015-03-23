@@ -1,23 +1,14 @@
-﻿body
-{
-	margin:0px;
-}
-#inner
+﻿#inner
 {   
     font-size:18px;
-    width:40%;
-    margin:0 auto;
-    
+    font-weight:600;
 }
+/*
 #shoppingguide
 {
-    float:left;
-    display:block;
-    font-weight:600;
+ 
 }
 #returnprocess
 {   
-    display:block;
-    float:left;
-    font-weight:600
-}
+
+}*/

@@ -2,8 +2,20 @@
 	font-family: Modern-Regular, "微軟正黑體";
 }
 
+body 
+{
+	margin:0px;
+}
 
 a:hover{text-decoration:none} 
+
+.fullWidth
+{
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
 
 #head
 {
@@ -13,6 +25,7 @@ a:hover{text-decoration:none}
 #head_top
 {
 	width:100%;
+	margin-top:0px;
 }
 #headlogo
 {
@@ -46,6 +59,7 @@ a:hover{text-decoration:none}
 {
 	color:#222222;
 }
+
 .sapn_title
 {
 	color:#222222;
@@ -102,8 +116,33 @@ a:hover{text-decoration:none}
 	color:#9d9d9d;
 }
 #main_menu a
-{color:#9d9d9d;}
+{
+	color:#9d9d9d;
+}
 
+
+.fixBGColor
+{
+	background-color: #fff;
+}
+
+
+/* bootstrap fix */
+.nav {
+	float: none;
+	text-align: center;
+}
+            
+.nav li {
+	display: inline-block;
+	float: none;
+}
+
+.navbar-toggle 
+{
+	float: none;
+}
+            
 @media (max-width:767px){
 .joinInput { width:240px;}}
 @media (min-width:767px){
