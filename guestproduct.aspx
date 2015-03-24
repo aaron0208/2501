@@ -129,7 +129,7 @@
 
 
        <hr />
-        <div id="arrow" class="col-xs-12 col-sm-12"><a href="./Default.aspx">首頁</a>＞<a href="./guestproduct.aspx">購物首頁</a><hr /></div>
+        <div id="arrow" class="col-xs-12 col-sm-12"><a href="./Default.aspx">首頁</a>＞<a href="./guestproduct.aspx">購物首頁</a></div>
         
         <div class="container-fluid">
         

@@ -240,17 +240,17 @@
                     <hr />
                        <div id="join" class="col-xs-12 col-sm-12 col-lg-4 col-md-4">
                             <div class="joinContent">
-                                <div class="footerHeadline" style="font-size:18px">還不是會員</div>
-                                <div class="joinLine">
-                                    <div id="joinLineInside">
+                                <h3 class="footerHeadline">還不是會員</h3>
+                                
+                                    
                                         <div class="joinInput">
-                                            <input id="Text1" type="text" value="請輸入您的E-Mail"/>
-                                            <a href="./signup.aspx"><img src="./images/join_07.png">
-                                                </a>
+                                            <from>
+                                                <input id="joinMemberEmail" name="joinMemberEmail" type="text" placeholder="請輸入您的E-Mail"/>
+                                                <button class="btn btn-block btn-primary"> 完成 </button>
+                                            </from>
                                         </div>
 
-                                    </div>
-                                </div>
+                                    
                                 <div id="joinAdvantage">
                                     <!--<p>-加入即贈五十元購物金</p>
                                     <p>-累積網路與店面消費金額</p>
@@ -263,7 +263,7 @@
                         </div>
 
                         <div id="map" class="col-xs-12 col-sm-12 col-lg-4 col-md-4" style="font-size:18px">
-                            網站地圖
+                            <h3>網站地圖</h3>
                             <div id="maptop" class="row" style="font-size:16px">
                                 <div id="mapbord" class="col-xs-12 col-sm-12 col-lg-6 col-md-6">
                                     <div id="mapleft">
@@ -312,24 +312,30 @@
                             </div>
                         </div>
                     <div id="consumption" class="col-xs-12 col-sm-12 col-lg-4 col-md-4">
-                        <div class="footerHeadline" style="font-size:18px">消費方式</div>
+                        <h3 class="footerHeadline">消費方式</h3>
                         <img src="./images/consumption.png" />
                     </div>
 
                 </div>
             </div>
-            <div id="proclaim" runat="server" class="row">
+            
+            <div id="proclaim" class="row">
                 <div class="col-md-12" style="padding-left: 25px;">
                     <hr />
-                    <div id="proclaimtext">
-                        <div class="proclaimtextInner" style="font-size:18px"><a>法律聲明</a>
-                        </div>
-                        <div class="proclaimtextInner" style="font-size:18px"><a>隱私責任</a>
-                        </div>
-                    </div>
-                    <div id="footer_copyright" style="font-size:18px">版權所有貳伍零壹藝術行銷</div>
+                    <ul id="proclaimtext" class="list-inline">
+                        <li>
+                            <a>法律聲明</a>
+                        </li>
+                        <li>
+                            <a>隱私責任</a>
+                        </li>
+                        <li id="footer_copyright">
+                            版權所有貳伍零壹藝術行銷
+                        </li>
+                    </ul>
                 </div>
             </div>
+            
         </div>
        
     </body>
